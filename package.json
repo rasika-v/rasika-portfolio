@@ -1,7 +1,6 @@
 {
   "name": "portfolio-frontend",
   "version": "0.1.0",
-  "homepage": "https://rasika-v.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
