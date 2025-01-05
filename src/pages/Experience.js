@@ -26,7 +26,7 @@ const Experience = () => {
       company: "The Helpy App, Inc.",
       duration: "October 2024 - December 2024",
       description: "Your role description and achievements",
-      logo: "/company-logo.png",
+      // logo: "/300x0w.jpg",
       techStack: [
         { icon: <SiFlutter />, name: "Flutter" },
         { icon: <SiFirebase />, name: "Firebase" }
@@ -37,7 +37,7 @@ const Experience = () => {
       company: "Mercedes-Benz Research & Development India",
       duration: "January 2021 - July 2023",
       description: "Your role description and achievements",
-      logo: "/company-logo.png",
+      // logo: "/mbrdi.jpg",
       techStack: [
         { icon: <FaReact />, name: "React" },
         { icon: <SiJavascript />, name: "JavaScript" },
@@ -50,7 +50,7 @@ const Experience = () => {
         company: "Nokia Bell Labs",
         duration: "August 2020 - December 2020",
         description: "Your role description and achievements",
-        logo: "/company-logo.png",
+        // logo: "/nokia.png",
         techStack: [
           { icon: <SiFlutter />, name: "Flutter" },
           { icon: <SiFirebase />, name: "Firebase" }
@@ -116,9 +116,9 @@ const Experience = () => {
                   alignItems: 'flex-start'
                 }}>
                   <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-                    <Box
+                    {/* <Box
                       component="img"
-                      src={exp.logo}
+                      // src={exp.logo}
                       alt={exp.company}
                       sx={{
                         width: { xs: '50px', md: '60px' },
@@ -126,7 +126,7 @@ const Experience = () => {
                         objectFit: 'contain',
                         filter: 'brightness(0) invert(1)'
                       }}
-                    />
+                    /> */}
                     <Box>
                       <Typography variant="h5" sx={{
                         color: '#64ffda',
