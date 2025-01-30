@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
-// import Projects from './pages/Projects';
+import Projects from './pages/Projects';
 import Navbar from './components/NavBar';
 import { ThemeProvider, createTheme, Box } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -45,9 +45,9 @@ function App() {
           <section id="experience" style={{ minHeight: '100vh', paddingTop: '70px' }}>
             <Experience />
           </section>
-          {/* <section id="projects" style={{ minHeight: '100vh', paddingTop: '70px' }}>
+          <section id="projects" style={{ minHeight: '100vh', paddingTop: '70px' }}>
             <Projects />
-          </section> */}
+          </section>
           <section id="contact" style={{ minHeight: '100vh', paddingTop: '70px' }}>
             <Contact />
           </section>
