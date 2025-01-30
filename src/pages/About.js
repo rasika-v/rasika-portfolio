@@ -16,7 +16,7 @@ const About = () => {
       }}>
         {/* <Box sx={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}> */}
         <Typography
-          variant="h3"
+          variant="h4"
           gutterBottom
           sx={{
             fontWeight: 'bold',
@@ -30,7 +30,7 @@ const About = () => {
         </Typography>
 
         <Typography
-          variant="h5"
+          variant="h6"
           gutterBottom
           sx={{
             lineHeight: 1.8,
@@ -49,7 +49,7 @@ const About = () => {
         </Typography>
 
         <Typography
-          variant="h5"
+          variant="h6"
           gutterBottom
           sx={{
             lineHeight: 1.8,
@@ -67,7 +67,7 @@ const About = () => {
         </Typography>
 
         <Typography
-          variant="h5"
+          variant="h6"
           gutterBottom
           sx={{
             lineHeight: 1.8,
@@ -84,7 +84,7 @@ const About = () => {
         </Typography>
 
         <Typography
-          variant="h5"
+          variant="h6"
           sx={{
             lineHeight: 1.8,
             color: 'text.secondary',
