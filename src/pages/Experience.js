@@ -22,10 +22,21 @@ const Experience = () => {
 
   const experiences = [
     {
+      title: "Lead Founding Software Engineer (University Startup Accelerator)",
+      company: "Deleg8",
+      duration: "January 2025 - Present",
+      // description: "Your role description and achievements",
+      // logo: "/300x0w.jpg",
+      techStack: [
+        { icon: <FaReact />, name: "Flutter" },
+        { icon: <SiFirebase />, name: "Firebase" }
+      ]
+    },
+    {
       title: "Software Developement Intern",
       company: "The Helpy App, Inc.",
       duration: "October 2024 - December 2024",
-      description: "Your role description and achievements",
+      // description: "Your role description and achievements",
       // logo: "/300x0w.jpg",
       techStack: [
         { icon: <SiFlutter />, name: "Flutter" },
@@ -36,7 +47,7 @@ const Experience = () => {
       title: "Software Developement Engineer | Graduate Engineer Trainee | Software Engineer Intern",
       company: "Mercedes-Benz Research & Development India",
       duration: "January 2021 - July 2023",
-      description: "Your role description and achievements",
+      // description: "Your role description and achievements",
       // logo: "/mbrdi.jpg",
       techStack: [
         { icon: <FaReact />, name: "React" },
@@ -49,7 +60,7 @@ const Experience = () => {
         title: "Software Developer Intern",
         company: "Nokia Bell Labs",
         duration: "August 2020 - December 2020",
-        description: "Your role description and achievements",
+        // description: "Your role description and achievements",
         // logo: "/nokia.png",
         techStack: [
           { icon: <SiFlutter />, name: "Flutter" },
