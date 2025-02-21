@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Typography, Box, Card } from '@mui/material';
 import { motion } from 'framer-motion';
 import SchoolIcon from '@mui/icons-material/School';
+import CustomizedTimelineUG from '../components/UndergradTimeline';
 // import WorkIcon from '@mui/icons-material/Work';
 // import { FaReact, FaNode, FaPython } from 'react-icons/fa';
 // import { SiFlutter, SiTypescript, SiJavascript, SiFirebase, SiTrello } from 'react-icons/si';
@@ -25,7 +26,7 @@ const Education = () => {
       degree: "Master of Science, Computer Science",
       school: "Illinois Institute of Technology",
       duration: "2023 - 2025",
-      description: "Relevant coursework and achievements",
+      // description: "Relevant coursework and achievements",
       logo: "/iitlogo.png"
 
     },
@@ -33,7 +34,7 @@ const Education = () => {
       degree: "Bachelor of Technology, Computer Science and Engineering",
       school: "Dayananda Sagar University",
       duration: "2017 - 2021",
-      description: "Relevant coursework and achievements",
+      // description: "Relevant coursework and achievements",
       logo: "/uglogo.png"
     }
   ];
@@ -83,11 +84,11 @@ const Education = () => {
                 mb: 3,
                 borderRadius: 2,
                 boxShadow: '0 0 20px rgba(255,255,255,0.1)',
-                '&:hover': {
-                  boxShadow: '0 0 30px rgba(100,255,218,0.2)',
-                  transform: 'translateY(-5px)',
-                  transition: 'all 0.3s ease-in-out'
-                }
+                // '&:hover': {
+                //   boxShadow: '0 0 30px rgba(100,255,218,0.2)',
+                //   transform: 'translateY(-5px)',
+                //   transition: 'all 0.3s ease-in-out'
+                // }
               }}>
 
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
@@ -121,7 +122,9 @@ const Education = () => {
                     <Typography variant="subtitle1">
                       {edu.school} | {edu.duration}
                     </Typography>
+                    
                   </Box>
+                  <CustomizedTimelineUG />
                 </Box>
                 <Typography variant="body1">
                   {edu.description}
