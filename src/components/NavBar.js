@@ -39,6 +39,32 @@ const Navbar = () => {
     { text: 'Contact', to: 'contact' }
   ];
 
+
+
+
+  // Here are the main color codes I extracted from the image:
+
+  // #e2b798 (light tan skin tone)
+  
+  // #7c442e (dark brown, like the hair)
+  
+  // #f6e1c9 (soft beige background)
+  
+  // #c3a38e (light brown, possibly from the desk or skin shadows)
+  
+  // #1d1c20 (very dark gray/black, like the laptop or hair shadows)
+  
+  // #433027 (rich brown, for finer hair/laptop details)
+  
+  // #bb6c54 (soft reddish-brown, likely in shading)
+  
+  // #503629 (dark brown accent, for outlines)
+
+
+
+
+
+
   return (
     <StyledDrawer variant="permanent" anchor="left">
       <Box sx={{
@@ -50,7 +76,8 @@ const Navbar = () => {
       }}>
         <Avatar
           // src="R.png"
-          src="LinkedInHeadshot.jpg"
+          // src="LinkedInHeadshot.jpg"
+          src ="cartoon.png"
           sx={{
             width: 150,
             height: 150,
