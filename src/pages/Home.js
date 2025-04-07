@@ -136,6 +136,35 @@ const Home = () => {
             </Typography>
           </motion.div>
 
+
+            {/* <Typography
+              variant="h4"
+              sx={{
+                fontSize: { xs: '1.2rem', md: '1.5rem' },
+                color: '#64ffda',
+                textAlign: 'center',
+                // mb: 6,
+                maxWidth: '800px',
+                // lineHeight: 1.5,
+              }}
+            >
+              Master of Science, Computer Science
+            </Typography>
+
+            <Typography
+              variant="h4"
+              sx={{
+                fontSize: { xs: '1.2rem', md: '1.5rem' },
+                color: '#64ffda',
+                textAlign: 'center',
+                maxWidth: '800px',
+                // lineHeight: 1.5,
+              }}
+            >
+              Bachelor of Technology, Computer Science and Engineering
+            </Typography>
+     */}
+
           {/* Device Mockups */}
           <Box sx={{
             display: 'flex',
@@ -155,10 +184,10 @@ const Home = () => {
                 padding: '15px',
                 position: 'relative',
                 boxShadow: '0 0 20px rgba(255,255,255,0.2)',
-                '&:hover': {
-                  boxShadow: '0 0 30px rgba(255,255,255,0.3)',
-                  transition: 'all 0.3s ease-in-out'
-                }
+                // '&:hover': {
+                //   boxShadow: '0 0 30px rgba(255,255,255,0.3)',
+                //   transition: 'all 0.3s ease-in-out'
+                // }
               }}>
                 <Box sx={{
                   width: '100%',
@@ -215,10 +244,10 @@ const Home = () => {
                 padding: '10px',
                 position: 'relative',
                 boxShadow: '0 0 20px rgba(255,255,255,0.2)',
-                '&:hover': {
-                  boxShadow: '0 0 30px rgba(255,255,255,0.3)',
-                  transition: 'all 0.3s ease-in-out'
-                }
+                // '&:hover': {
+                //   boxShadow: '0 0 30px rgba(255,255,255,0.3)',
+                //   transition: 'all 0.3s ease-in-out'
+                // }
               }}>
                 <Box sx={{
                   width: '100%',
