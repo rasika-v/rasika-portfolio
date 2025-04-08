@@ -20,14 +20,14 @@ const projects = [
     github: 'https://github.com/rasika-v/CardGame',
     // demo: 'https://foodiefinder.app'
   },
-  // {
-  //   title: 'StartupHub 🚀',
-  //   description: 'A dashboard to help founders manage everything.',
-  //   techStack: ['Next.js', 'AWS', 'GraphQL'],
-  //   funFact: 'Inspired by my own startup journey. 📈',
-  //   github: 'https://github.com/yourusername/startuphub',
-  //   demo: 'https://startuphub.io'
-  // },
+  {
+    title: 'Portfolio 🚀',
+    description: 'The portfolio you\'re. seeing right now!',
+    techStack: ['React.js', 'Framer-Motion'],
+    funFact: '',
+    github: 'https://github.com/rasika-v/rasika-portfolio',
+    // demo: 'https://startuphub.io'
+  },
   // Add more projects here!
 ];
 
