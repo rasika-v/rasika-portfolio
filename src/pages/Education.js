@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Typography, Box, Card, Chip } from '@mui/material';
 import { motion } from 'framer-motion';
 import SchoolIcon from '@mui/icons-material/School';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+// import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 
 const Education = () => {
