@@ -58,7 +58,7 @@ const AboutMeTerminal = () => {
 > Right now, I'm taking an entrepreneurship class and building a startup from scratch.
 
 > What I love most about computer science? It opens doors to every domain.
-It lets me learn about new worlds — healthcare, finance, automotive, fashion — while still doing what I enjoy: building tech that makes a difference.
+It lets me learn about new worlds like healthcare, finance, automotive, fashion while still doing what I enjoy: building tech that makes a difference.
 `}
           </Typography>
         </Box>

@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: 'Portfolio 🚀',
-    description: 'The portfolio you\'re. seeing right now!',
+    description: 'The portfolio you\'re seeing right now!',
     techStack: ['React.js', 'Framer-Motion'],
     funFact: '',
     github: 'https://github.com/rasika-v/rasika-portfolio',
