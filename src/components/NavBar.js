@@ -76,8 +76,8 @@ const Navbar = () => {
       }}>
         <Avatar
           // src="R.png"
-          // src="LinkedInHeadshot.jpg"
-          src ="cartoon.png"
+          src="LinkedInHeadshot.jpg"
+          // src ="cartoon.png"
           sx={{
             width: 150,
             height: 150,
